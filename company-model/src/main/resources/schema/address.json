@@ -1,0 +1,24 @@
+{
+	"type" : "object",
+	"properties" : {
+		"street" : {
+			"type" : "string"
+		},
+		"houseNumber" : {
+			"type" : "string"
+		},
+		"flatNumber" : {
+			"type" : "string"
+		},
+		"postalCode" : {
+			"type" : "string"
+		},
+		"city" : {
+			"type" : "string"
+		},
+		"country" : {
+			"type" : "string"
+		}
+	},
+	"required" : [ "street", "houseNumber", "flatNumber", "postalCode", "city", "country" ]
+}

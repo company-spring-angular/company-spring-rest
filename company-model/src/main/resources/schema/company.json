@@ -1,0 +1,32 @@
+{
+	"type" : "object",
+	"javaInterfaces" : ["java.io.Serializable"],
+	"properties" : {
+		"cid" : {
+			"type" : "string",
+			"required" : "true"
+		},
+		"name" : {
+			"type" : "string",
+			"required" : "true"
+		},
+		"address" : {
+			"$ref" : "address.json",
+			"required" : "true"
+		},
+		"email" : {
+			"type" : "string"
+		},
+		"phone" : {
+			"$ref" : "phone.json"
+		},
+		"owners" : {
+			"type" : "array",
+			"items" : {
+				"$ref" : "beneficial.json"
+			},
+			"minItems" : 1,
+			"required" : "true"
+		}
+	}
+}

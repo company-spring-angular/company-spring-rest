@@ -1,0 +1,1 @@
+web: echo "Running windows configuration..." 1>&2 && echo %JAVA_OPTS% 1>&2 && JAVA_OPTS="-Dserver.port=%PORT%" && company-rest\target\company\bin\run.bat 1>&2

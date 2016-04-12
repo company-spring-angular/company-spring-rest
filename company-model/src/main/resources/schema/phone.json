@@ -1,0 +1,12 @@
+{
+"type" : "object",
+	"properties":{
+		"areaCode" : {
+			"type" : "string"
+		},
+		"number" : {
+			"type" : "string"
+		}
+	},
+	"required" : [ "areaCode", "number" ]
+}
